@@ -1,22 +1,22 @@
-VERIFICATION
+﻿VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 The packaged Windows archive is available for independent download via the Releases page on
 Green Tunnel's GitHub repository. A download link for the packaged version is included at the
 following URL:
-https://github.com/SadeghHayeri/GreenTunnel/releases/tag/v1.8.3
+%tagReleaseUrl%
 
 For convenience, this is a direct URL to the relevant asset:
-https://github.com/SadeghHayeri/GreenTunnel/releases/download/v1.8.3/green-tunnel-windows.zip
+%archiveUrl%
 
-The following PowerShell command will print a calculated SHA256 hash:
+The following PowerShell command will print a calculated %checksumType% hash:
 
-    (Get-FileHash -Path green-tunnel-windows.zip -Algorithm SHA256).Hash
+    (Get-FileHash -Path %archiveFileName% -Algorithm %checksumType%).Hash
 
 This command should be executed against an independently downloaded archive, as well as the copy
 distributed with the package. Both hash values should be identical. A matching hash value should
 confirm that no corruption or tampering has occurred during this package's generation process.
 
-For reference, the following SHA256 hash was calculated during the package's automated creation:
-2225CC61B2D966F001C4B17C36107EFCA502D45F1FA60C2131C97BA4321A680F
+For reference, the following %checksumType% hash was calculated during the package's automated creation:
+%checksumValue%
