@@ -3,7 +3,7 @@
 $currentPath = (Split-Path $MyInvocation.MyCommand.Definition)
 . $currentPath\helpers.ps1
 
-$nuspecFileRelativePath = Join-Path -Path $currentPath -ChildPath 'green-tunnel.nuspec'
+$nuspecFileRelativePath = Join-Path -Path $currentPath -ChildPath 'green-tunnel-gui.nuspec'
 
 [xml] $nuspec = Get-Content $nuspecFileRelativePath
 $version = [Version] $nuspec.package.metadata.version

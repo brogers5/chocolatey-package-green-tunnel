@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>green-tunnel</id>
+    <id>green-tunnel-gui</id>
     <version>1.8.3</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-green-tunnel/tree/v1.8.3</packageSourceUrl>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-green-tunnel-gui/tree/v1.8.3</packageSourceUrl>
     <owners>sublym0nal</owners>
-    <title>Green Tunnel</title>
+    <title>Green Tunnel (GUI)</title>
     <authors>Sadegh Hayeri</authors>
     <projectUrl>https://github.com/SadeghHayeri/GreenTunnel</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-green-tunnel@37abd9c770cbdc846a80294e240268709073d646/green-tunnel.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-green-tunnel-gui@67d7a8d1b514780a1fe57127867a8567d1efbaba/green-tunnel-gui.png</iconUrl>
     <copyright>Copyright © 2022 Sadegh Hayeri</copyright>
     <licenseUrl>https://github.com/SadeghHayeri/GreenTunnel/blob/v1.8.3/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -17,11 +17,11 @@
     <docsUrl>https://github.com/SadeghHayeri/GreenTunnel/blob/v1.8.3/README.md</docsUrl>
     <mailingListUrl>https://github.com/SadeghHayeri/GreenTunnel/discussions</mailingListUrl>
     <bugTrackerUrl>https://github.com/SadeghHayeri/GreenTunnel/issues</bugTrackerUrl>
-    <tags>green-tunnel green tunnel proxy dpi deep-packet-inspection http https sni server-name-indication dns isp filter filtering firewall bypass electron cross-platform foss</tags>
+    <tags>green-tunnel-gui green-tunnel green tunnel gui proxy dpi deep-packet-inspection http https sni server-name-indication dns isp filter filtering firewall bypass electron cross-platform foss</tags>
     <summary>An anti-censorship utility designed to bypass the DPI system that is put in place by various ISPs to block access to certain websites.</summary>
     <description><![CDATA[
 ---
-### [choco://green-tunnel](choco://green-tunnel)
+### [choco://green-tunnel-gui](choco://green-tunnel-gui)
 To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support](https://chocolatey.org/packages/choco-protocol-support)
 
 ---
@@ -30,7 +30,7 @@ To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support](
 
 Green Tunnel is an anti-censorship utility, implemented as a local proxy server, that is intended to subvert malicious Deep Packet Inspection (DPI) systems. These may be configured by some Internet Service Providers (ISPs) to block access to certain websites.
 
-![Green Tunnel Demo](https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-green-tunnel@37abd9c770cbdc846a80294e240268709073d646/demo.gif)
+![Green Tunnel Demo](https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-green-tunnel-gui@37abd9c770cbdc846a80294e240268709073d646/demo.gif)
 ]]></description>
   </metadata>
   <files>
