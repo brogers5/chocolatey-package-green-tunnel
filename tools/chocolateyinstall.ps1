@@ -10,7 +10,7 @@ $outerPackageArgs = @{
 }
 Get-ChocolateyUnzip @outerPackageArgs
 
-#Clean up ZIP archive post-extractiom to prevent unnecessary disk bloat
+#Clean up ZIP archive post-extraction to prevent unnecessary disk bloat
 Remove-Item -Path $zipArchivePath -Force -ErrorAction SilentlyContinue
 
 $extractedDirectoryPath = Join-Path -Path $toolsDir -ChildPath 'builds'
