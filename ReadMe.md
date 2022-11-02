@@ -15,7 +15,7 @@ choco install green-tunnel-gui -s .
 ```
 
 ## Build
-[Install Chocolatey](https://chocolatey.org/install) and the [Chocolatey Automatic Package Updater Module](https://github.com/majkinetor/au), then clone this repository.
+[Install Chocolatey](https://chocolatey.org/install), the [Chocolatey Automatic Package Updater Module](https://github.com/majkinetor/au), and the [PowerShellForGitHub PowerShell Module](https://github.com/microsoft/PowerShellForGitHub), then clone this repository.
 
 Once cloned, simply run `build.ps1`. The script will download the Green Tunnel installer ZIP archive from the official distribution point (as the ZIP archive is intentionally untracked to avoid bloating the repository), then packs everything together.
 
