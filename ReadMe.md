@@ -29,7 +29,7 @@ Note that Chocolatey package builds are non-deterministic. Consequently, an inde
 
 ## Update
 
-This package should be automatically updated by the [Chocolatey Automatic Package Updater Module](https://github.com/majkinetor/au). If it is outdated by more than a few days, please [open an issue](https://github.com/brogers5/chocolatey-package-green-tunnel-gui/issues).
+This package has an update script implemented with the [Chocolatey Automatic Package Updater Module](https://github.com/majkinetor/au), but the project does not appear to be actively maintained anymore, so it is not included with my normally scheduled update runs. If the project has a new release, please [open an issue](https://github.com/brogers5/chocolatey-package-green-tunnel-gui/issues).
 
 AU expects the parent directory that contains this repository to share a name with the Nuspec (`green-tunnel-gui`). Your local repository should therefore be cloned accordingly:
 
