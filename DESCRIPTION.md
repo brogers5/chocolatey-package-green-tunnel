@@ -1,11 +1,7 @@
 
 ---
-### [choco://green-tunnel-gui](choco://green-tunnel-gui)
-To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support](https://community.chocolatey.org/packages/choco-protocol-support)
 
----
-
-### Looking for the CLI version? Check out the [green-tunnel-cli](https://community.chocolatey.org/packages/green-tunnel-cli) package!
+### Looking for the CLI version? Check out the [green-tunnel-cli](https://community.chocolatey.org/packages/green-tunnel-cli) package
 
 ---
 
