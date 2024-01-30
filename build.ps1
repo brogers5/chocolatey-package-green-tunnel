@@ -9,12 +9,12 @@ $nuspecFileRelativePath = Join-Path -Path $currentPath -ChildPath 'green-tunnel-
 $version = [Version] $nuspec.package.metadata.version
 
 $global:Latest = @{
-    Url32 = Get-SoftwareUri -Version $version
+    Url32   = Get-SoftwareUri -Version $version
     Version = $version
 }
 
-Write-Host "Downloading..."
+Write-Verbose 'Downloading...'
 Get-RemoteFiles -Purge -NoSuffix
 
-Write-Host "Creating package..."
+Write-Verbose 'Creating package...'
 choco pack $nuspecFileRelativePath
